@@ -1,7 +1,9 @@
 # ColorGradingGUI for ThreeJS EffectComposer
 A powerful and customizable color grading effect for ThreeJS EffectComposer using 'three/examples/jsm/postprocessing/EffectComposer'. This effect includes fine control over channel mixing, HSL adjustment per hue range, tone mapping, exposure, temperature, and much more.
 
-This postprocessing effect is a refactored fork of [Lunakepio's](https://github.com/Lunakepio) <a href="https://github.com/Lunakepio/ColorGradingEffect" style="color: #2fff65;">ColorGradingEffect</a> which was originally created for React Three Fiber using the @react-three/postprocessing ecosystem.
+This post processing effect is a refactored fork of [Lunakepio's](https://github.com/Lunakepio) <a href="https://github.com/Lunakepio/ColorGradingEffect" style="color: #2fff65;">ColorGradingEffect</a> which was originally created for React Three Fiber using the @react-three/postprocessing ecosystem.
+
+![Demo](./public/assets/color_grading_gui.gif)
 
 # Features
 
@@ -17,7 +19,7 @@ This postprocessing effect is a refactored fork of [Lunakepio's](https://github.
 
 # Installation
 ```
-npm install three react react-dom
+npm install three react
 ```
 Add the `ColorGradingGUI.jsx' file to your project.
 
